@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(28, 69, 135);
+    font-size: 32px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#main {
+    padding-left: 15px;
+    color: white;
+}
+
+#hamburger {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: white solid 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    p {
+        margin: 0;
+    }
+}
+
+#navbar {
+    background-color: gold;
+    min-width: 320px;
+}
+
+#nav-title:hover {
+    background-color: white;
+}
+
+#nav-title {
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#nav-title-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#nav-title-subheader {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.nav-sections {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-sections:hover {
+    background-color: white;
+}
+
+#title {
+    margin-top: 60px;
+}
+
+#image-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#carousel-item {
+    width: 1000px;
+    height: 600px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: gold;
+    color: rgb(28, 69, 135);
+}
+
+#collegeGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto auto;
+    .college {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+.college {
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.link-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    img {
+        width: 100px;
+        cursor: pointer;
+    }
+}
+
+#extracurriculars-h2 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+.club-images {
+    img {
+        height: 325px;
+    }
+    margin-bottom: 90px;
+}
+#CIMA {
+    margin-bottom: 100px;
+}
